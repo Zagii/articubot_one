@@ -3,7 +3,10 @@
   <xacro:include filename="inertial_macros.xacro" />
   <xacro:include filename="colors.xacro"/>
   <xacro:include filename="robot_core.xacro"/>
-  <xacro:include filename="gazebo_control.xacro"/>
+ <!-- <xacro:include filename="gazebo_control.xacro"/> -->
+  <xacro:include filename="ros2_control.xacro" />
+  <xacro:include filename="lidar.xacro"/>
+  <xacro:include filename="camera.xacro" />
 
 <!-- <link name="base_link">  </link> -->
 
